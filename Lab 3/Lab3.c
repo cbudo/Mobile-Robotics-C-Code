@@ -21,6 +21,9 @@ float getBackIR();
 // movement functions
 void rotateDeg(float);
 void forward(float);
+// Navigation functions
+void avoidObstacle();
+void goToGoal();
 
 
 // CONSTANTS
@@ -208,4 +211,11 @@ float getBackIR(){
 	//Convert distance to inches
 	dist = distance*0.3937;
 	return dist;
+}
+
+void gotToGoal(){
+	
+}
+void avoidObstacle(){
+	
 }
